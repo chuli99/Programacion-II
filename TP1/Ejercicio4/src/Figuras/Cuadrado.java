@@ -23,7 +23,8 @@ public class Cuadrado implements FiguraGeometrica {
     @Override
     public String toString() {
         return "Cuadrado{" +
-                "lado=" + lado +
+                "Perimetro= " + calcularPerimetro() +"\n"+
+                "Superficie= " + calcularSuperficie() +"\n"+
                 '}';
     }
 }

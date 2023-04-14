@@ -29,11 +29,8 @@ public class Triangulo implements FiguraGeometrica {
     @Override
     public String toString() {
         return "Triangulo{" +
-                "lado1=" + lado1 +
-                ", lado2=" + lado2 +
-                ", lado3=" + lado3 +
-                ", base=" + base +
-                ", altura=" + altura +
+                "Perimetro= " + calcularPerimetro() +"\n"+
+                "Superficie= " + calcularSuperficie() +"\n"+
                 '}';
     }
 }

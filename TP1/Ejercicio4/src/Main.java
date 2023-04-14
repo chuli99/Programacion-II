@@ -8,5 +8,5 @@ public class Main {
         main.arranque();
     }
     public void arranque(){
-
+        Array<>
     }
