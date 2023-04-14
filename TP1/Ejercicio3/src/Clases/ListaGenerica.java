@@ -79,4 +79,9 @@ public class ListaGenerica<T> {
         }
         lista.remove(posicion);
     }
+
+    //Metodo para eliminar toda una lista
+    public void borrar_lista(){
+        lista.clear();
+    }
 }
