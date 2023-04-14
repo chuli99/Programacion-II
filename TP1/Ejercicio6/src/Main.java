@@ -28,7 +28,6 @@ public class Main {
 
         for(Map.Entry<String, Empleado> empleadoEntry: empleadoMap.entrySet() ){
             System.out.printf("Clave: "+ empleadoEntry.getKey() +" Valor: "+empleadoEntry.getValue());
-            System.out.println("a");
         }
 
     }
