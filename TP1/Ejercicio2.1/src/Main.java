@@ -41,8 +41,8 @@ public class Main {
             System.out.println(empleados);
         }
 
-        for (EmpleadoSet empleadoSet : empleadosSet);{
-            System.out.println(empleadosSet);
+        for (EmpleadoSet empleado : empleadosSet){
+            System.out.println(empleado);
         }
     }
 }

@@ -1,6 +1,6 @@
-package Entidades;
+package Clases;
 
-public class Empleado  {
+public class Empleado {
     private String nombre;
     private String apellido;
     private Integer legajo;
@@ -55,8 +55,6 @@ public class Empleado  {
                 ", apellido='" + apellido + '\'' +
                 ", legajo=" + legajo +
                 ", aniosTrabajados=" + aniosTrabajados +
-                "}\n";
+                '}';
     }
-
 }
-
