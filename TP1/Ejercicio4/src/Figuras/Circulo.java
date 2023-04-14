@@ -15,8 +15,9 @@ public class Circulo implements FiguraGeometrica{
 
     @Override
     public String toString() {
-        return "Circulo{" +
-                "radio=" + radio +
+        return "Circulo{\n" +
+                "Perimetro= " + calcularPerimetro() +"\n"+
+                "Superficie= " + calcularSuperficie() +"\n"+
                 '}';
     }
 
