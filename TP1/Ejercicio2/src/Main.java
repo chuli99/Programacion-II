@@ -31,6 +31,7 @@ public class Main {
         System.out.println(lista.obtener_ultimo_elemento());
         lista.remover_objeto(3);
         System.out.println(lista.devolver_Lista());
+        System.out.println(lista.tamanio());
     }
 
     }
